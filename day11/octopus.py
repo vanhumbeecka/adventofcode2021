@@ -34,9 +34,6 @@ class Octopus:
         self.flashed = False
         self.flash_count = 0
 
-    def __eq__(self, other):
-        return self.coord == other.col
-
     def __repr__(self):
         return f"<Octopus energy={self.energy} {self.coord} neighbours={len(self.neighbours)} flash_count={self.flash_count}>"
 
