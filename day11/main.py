@@ -67,7 +67,7 @@ def algo_2(octopus_list: List[Octopus]):
 
 
 if __name__ == '__main__':
-    file = 'input.txt'
+    file = 'example.txt'
     my_list = read_file(file)
     print(algo_1(my_list))
     my_list_2 = read_file(file)
